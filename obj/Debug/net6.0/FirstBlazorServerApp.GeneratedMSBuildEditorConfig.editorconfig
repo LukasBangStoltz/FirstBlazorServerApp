@@ -9,61 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstBlazorServerApp
 build_property.RootNamespace = FirstBlazorServerApp
-build_property.ProjectDir = I:\VS\Projects\FirstBlazorServerApp\
+build_property.ProjectDir = C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = I:\VS\Projects\FirstBlazorServerApp
+build_property.MSBuildProjectDirectory = C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp
 build_property._RazorSourceGeneratorDebug = 
 
-[I:/VS/Projects/FirstBlazorServerApp/App.razor]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/VS/Projects/FirstBlazorServerApp/Controls/DateComponent.razor]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Controls/ChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcQ2hpbGRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Controls/DataGridComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcRGF0YUdyaWRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Controls/DateComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcRGF0ZUNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/VS/Projects/FirstBlazorServerApp/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Controls/FieldComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcRmllbGRDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/VS/Projects/FirstBlazorServerApp/Pages/FetchData.razor]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Controls/GridAutoComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcR3JpZEF1dG9Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Controls/RepeaterComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcUmVwZWF0ZXJDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Pages/DynamicStuff.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHluYW1pY1N0dWZmLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/VS/Projects/FirstBlazorServerApp/Pages/Index.razor]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/VS/Projects/FirstBlazorServerApp/Pages/SalesComponents.razor]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Pages/PracticeComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJhY3RpY2VDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Pages/SalesComponents.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsZXNDb21wb25lbnRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/VS/Projects/FirstBlazorServerApp/Shared/SurveyPrompt.razor]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/VS/Projects/FirstBlazorServerApp/_Imports.razor]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/VS/Projects/FirstBlazorServerApp/Shared/MainLayout.razor]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-sy8fgv0k20
 
-[I:/VS/Projects/FirstBlazorServerApp/Shared/NavMenu.razor]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3lqfj5511q
 
-[I:/VS/Projects/FirstBlazorServerApp/Pages/Error.cshtml]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/VS/Projects/FirstBlazorServerApp/Pages/_Host.cshtml]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/VS/Projects/FirstBlazorServerApp/Pages/_Layout.cshtml]
+[C:/Users/Lukas.StoltzAndersen/OneDrive - Formpipe Software AB/Skrivbordet/Projects/FirstBlazorServerApp/FirstBlazorServerApp/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

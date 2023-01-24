@@ -30,3 +30,35 @@ I:\VS\Projects\FirstBlazorServerApp\obj\Debug\net6.0\refint\FirstBlazorServerApp
 I:\VS\Projects\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.pdb
 I:\VS\Projects\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.genruntimeconfig.cache
 I:\VS\Projects\FirstBlazorServerApp\obj\Debug\net6.0\ref\FirstBlazorServerApp.dll
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\bin\Debug\net6.0\appsettings.json
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\bin\Debug\net6.0\FirstBlazorServerApp.staticwebassets.runtime.json
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\bin\Debug\net6.0\FirstBlazorServerApp.exe
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\bin\Debug\net6.0\FirstBlazorServerApp.deps.json
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\bin\Debug\net6.0\FirstBlazorServerApp.runtimeconfig.json
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\bin\Debug\net6.0\FirstBlazorServerApp.dll
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\bin\Debug\net6.0\FirstBlazorServerApp.pdb
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.csproj.AssemblyReference.cache
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.AssemblyInfoInputs.cache
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.AssemblyInfo.cs
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.csproj.CoreCompileInputs.cache
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.RazorAssemblyInfo.cache
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.RazorAssemblyInfo.cs
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.FirstBlazorServerApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.build.FirstBlazorServerApp.props
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FirstBlazorServerApp.props
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FirstBlazorServerApp.props
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\scopedcss\bundle\FirstBlazorServerApp.styles.css
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\scopedcss\projectbundle\FirstBlazorServerApp.bundle.scp.css
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.dll
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\refint\FirstBlazorServerApp.dll
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.pdb
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\FirstBlazorServerApp.genruntimeconfig.cache
+C:\Users\Lukas.StoltzAndersen\OneDrive - Formpipe Software AB\Skrivbordet\Projects\FirstBlazorServerApp\FirstBlazorServerApp\obj\Debug\net6.0\ref\FirstBlazorServerApp.dll

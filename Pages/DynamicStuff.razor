@@ -1,0 +1,125 @@
+﻿@page "/counter"
+
+<PageTitle>yeees</PageTitle>
+
+<br />
+<br />
+<DataGridComponent TItem="Employee"
+                    DataItems="listEmployees"
+                    Columns="columnDefinition"
+                    Paging="@(new PagingConfig {Enabled = true,
+CustomPager = false,
+PageSize = 15})"></DataGridComponent>
+
+@code {
+    private List<Employee> listEmployees;
+    private List<ColumnDefinition> columnDefinition;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Initilize();
+    }
+
+    private void Initilize()
+    {
+        if(columnDefinition == null)
+        {
+            columnDefinition = new List<ColumnDefinition>();
+            columnDefinition.AddRange(
+                new ColumnDefinition[]
+                {
+                    new ColumnDefinition {DataField = "Name", Caption= "Name"},
+                    new ColumnDefinition {DataField = "Title", Caption= "Title"},
+
+                    new ColumnDefinition {DataField = "Department", Caption= "Department"},
+
+                    new ColumnDefinition {DataField = "EmploymentDate", Caption= "Employment Date", Format = "yyyy/MM/dd", DataType = DataType.Date},
+
+                    new ColumnDefinition {DataField = "Salary", Caption= "Anual Salary", DataType = DataType.Currency, Alignment = Alignment.Right, Format="c"}
+
+                }
+            );
+        }
+        if(listEmployees == null)
+        {
+            listEmployees = new List<Employee>();
+            listEmployees.AddRange(
+                new Employee[]
+                {
+                    new Employee{Name = "jens ole", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 10000000},
+                    new Employee{Name = "lars andersen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 10000},
+                    new Employee{Name = "anders and", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1003200},
+                    new Employee{Name = "ole lukøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 332},
+                    new Employee{Name = "frans ferdinan", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1004200},
+                    new Employee{Name = "jens ole", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 100030000},
+                    new Employee{Name = "lars andersen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 10000},
+                    new Employee{Name = "kalr and", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 10000},
+                    new Employee{Name = "frederik lukøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 100023130},
+                    new Employee{Name = "frans fransensen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1000240},
+                    new Employee{Name = "jens andersen", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 12334242},
+                    new Employee{Name = "lars bang", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1004200},
+                    new Employee{Name = "anders kattemad", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 123210000},
+                    new Employee{Name = "ole åbenøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1002300},
+                    new Employee{Name = "frans ferdinan", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 34324},
+                    new Employee{Name = "jens ole", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 1000023000},
+                    new Employee{Name = "lars andersen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 5352},
+                    new Employee{Name = "Sebastian Godsk", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1023000},
+                    new Employee{Name = "ole lukøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1000450},
+                    new Employee{Name = "frans ferdinan", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 42423},
+                     new Employee{Name = "jens ole", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 1000023000},
+                    new Employee{Name = "lars andersen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 10000},
+                    new Employee{Name = "anders and", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 10000},
+                    new Employee{Name = "ole lukøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 332},
+                    new Employee{Name = "frans ferdinan", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 10045300},
+                    new Employee{Name = "jens ole", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 100543000},
+                    new Employee{Name = "lars andersen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 104324000},
+                    new Employee{Name = "kalr and", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1067000},
+                    new Employee{Name = "frederik lukøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 100023130},
+                    new Employee{Name = "frans fransensen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1000240},
+                    new Employee{Name = "jens andersen", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 12334242},
+                    new Employee{Name = "lars bang", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1008700},
+                    new Employee{Name = "anders kattemad", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 123210000},
+                    new Employee{Name = "ole åbenøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1002300},
+                    new Employee{Name = "frans ferdinan", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 34324},
+                    new Employee{Name = "jens ole", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 10000000},
+                    new Employee{Name = "lars andersen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 5352},
+                    new Employee{Name = "anders and", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1087000},
+                    new Employee{Name = "ole lukøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 10000},
+                    new Employee{Name = "frans ferdinan", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 42423},
+                     new Employee{Name = "jens ole", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 10000000},
+                    new Employee{Name = "lars andersen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1007800},
+                    new Employee{Name = "anders and", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1009800},
+                    new Employee{Name = "ole lukøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 332},
+                    new Employee{Name = "frans ferdinan", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1009800},
+                    new Employee{Name = "jens ole", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 8977},
+                    new Employee{Name = "lars andersen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 6789},
+                    new Employee{Name = "kalr and", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 865678},
+                    new Employee{Name = "frederik lukøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 100023130},
+                    new Employee{Name = "frans fransensen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1000240},
+                    new Employee{Name = "jens andersen", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 12334242},
+                    new Employee{Name = "lars bang", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 86787},
+                    new Employee{Name = "anders kattemad", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 123210000},
+                    new Employee{Name = "ole åbenøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 1002300},
+                    new Employee{Name = "frans ferdinan", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 34324},
+                    new Employee{Name = "jens ole", Title = "Direktør", Department = "kongeafdelingen", EmploymentDate = DateTime.Now, Salary = 6785},
+                    new Employee{Name = "lars andersen", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 5352},
+                    new Employee{Name = "anders and", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 5678},
+                    new Employee{Name = "ole lukøje", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 856},
+                    new Employee{Name = "frans ferdinan", Title = "Lønslave", Department = "slaveafdelingen", EmploymentDate = DateTime.Now, Salary = 42423},
+                }
+            );
+        }
+    }
+
+
+
+    class Employee
+    {
+        public string Name { get; set; }
+        public string Title { get; set; }   
+        public string Department { get; set; }  
+        public DateTime EmploymentDate { get; set; }
+        public int Salary { get; set; }
+    }
+}

@@ -8,8 +8,14 @@
 <br />
 <br />
 Date: @dateTime
+<br />
+<br />
+<button class="button" @onclick="(() =>{
+    child.Show();
+    })">Click me to display component</button>
+<ChildComponent @ref="child"></ChildComponent>
 
 @code {
-
+    private ChildComponent child;
 }
  

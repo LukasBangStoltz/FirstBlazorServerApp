@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lukas\\.nuget\\packages\\": {}
+    "C:\\Users\\Lukas.StoltzAndersen\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\VS\\Projects\\FirstBlazorServerApp\\FirstBlazorServerApp.csproj",
+      "projectUniqueName": "C:\\Users\\Lukas.StoltzAndersen\\OneDrive - Formpipe Software AB\\Skrivbordet\\Projects\\FirstBlazorServerApp\\FirstBlazorServerApp\\FirstBlazorServerApp.csproj",
       "projectName": "FirstBlazorServerApp",
-      "projectPath": "I:\\VS\\Projects\\FirstBlazorServerApp\\FirstBlazorServerApp.csproj",
-      "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-      "outputPath": "I:\\VS\\Projects\\FirstBlazorServerApp\\obj\\",
+      "projectPath": "C:\\Users\\Lukas.StoltzAndersen\\OneDrive - Formpipe Software AB\\Skrivbordet\\Projects\\FirstBlazorServerApp\\FirstBlazorServerApp\\FirstBlazorServerApp.csproj",
+      "packagesPath": "C:\\Users\\Lukas.StoltzAndersen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lukas.StoltzAndersen\\OneDrive - Formpipe Software AB\\Skrivbordet\\Projects\\FirstBlazorServerApp\\FirstBlazorServerApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lukas.StoltzAndersen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {}
       },
       "frameworks": {
         "net6.0": {

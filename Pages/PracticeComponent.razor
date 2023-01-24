@@ -1,0 +1,59 @@
+﻿@page "/practice"
+
+<h3>PracticeComponent</h3>
+
+<RepeaterComponent @ref="repeater"items="customers">
+    <Row Context="customer" >
+        <div><b>@customer.CompanyName</b></div>
+        &nbsp;
+        <button class="btn btn-dark" @onclick="@(() => {
+EditCustomer(customer);
+})">Edit</button>
+        <div class="ml-5">@customer.ContactName</div>
+        <div class="ml-5">@customer.PhoneNumber</div>
+        <br />
+    </Row>
+    <EditTemplate Context="currentCustomer">
+        <div>
+        <text>Company Name:</text><input class="form-control" @bind-value="currentCustomer.CompanyName" />
+        </div>
+        <div>
+            <text>Contact Name:</text><input class="form-control" @bind-value="currentCustomer.ContactName" />
+        </div>
+        <div>
+            <text>Phone Number:</text><input class="form-control" @bind-value="currentCustomer.PhoneNumber" />
+        </div>
+    </EditTemplate>
+
+</RepeaterComponent>
+
+@code {
+    private RepeaterComponent<Customer> repeater;
+    private List<Customer> customers;
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        customers = new List<Customer>();
+        customers.AddRange(new Customer[]
+        {
+            new Customer{CompanyName = "Company A", ContactName = "Frank", PhoneNumber = "88888888"},
+            new Customer{CompanyName = "Company B", ContactName = "Jens", PhoneNumber = "55555555"},
+            new Customer{CompanyName = "Company C", ContactName = "Poul", PhoneNumber = "22222222"},
+
+        });
+    }
+
+    private void EditCustomer (Customer customer)
+    {
+        repeater.ItemToEdit = customer;
+    }
+    class Customer
+    {
+        public string CompanyName { get; set; }
+        public string ContactName { get; set; }
+        public string PhoneNumber { get; set; }
+    }
+
+   
+}
